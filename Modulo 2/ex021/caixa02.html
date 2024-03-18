@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px
+        }
+
+        header {
+            background-color: rgb(197, 231, 146);
+            margin: 10px;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: green;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 40px;
+        }
+
+        aside > p {
+           background-color: gray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            margin: 10px;
+            padding: 2px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Meu site da massa</h1>
+    <nav>
+        <nav>
+            <a href="#">Aqui</a>
+            <a href="#">Aqui</a>
+            <a href="#">Aqui</a>
+            <a href="#">Aqui</a>
+            <a href="#">Aqui</a>
+        </nav>
+    </nav>
+   </header>
+
+   <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deleniti reprehenderit commodi enim eveniet placeat repudiandae deserunt maxime, modi consequuntur repellendus dolore quae libero, atque pariatur sunt eius eligendi beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, vitae porro! Animi reiciendis, qui dolores consequuntur aliquam enim, ullam blanditiis ut magnam eaque non architecto facilis, cum optio rem quam?</p>
+                <aside>
+                    <p>Artigo escrito por Ronaldinho Pereira</p>
+                </aside>
+            </article>
+            
+        </section>
+   </main>
+
+   <footer>
+    <p> Produzido por Rogerin</p>
+    </footer>
+</body>
+</html>
